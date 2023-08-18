@@ -75,6 +75,10 @@ i:hover{
 }
 
 @keyframes anni {
-    from{translate: 0 0.8rem;}
-    to{translate: 0 -0.15rem;}
+    0% {
+        translate: 0 0.8rem;
+    }
+    100% {
+        translate: 0 -0.15rem;
+    }
 }
