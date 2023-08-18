@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 17rem;
+    width: 23rem;
+    border-radius: 5%;
+    background: linear-gradient(to left, gray, black);
+    position: absolute;
+    cursor: pointer;
+    box-shadow: rgb(194, 186, 181) 0 10px 10px 0;
+    transition: all 2s ease;
+}
+
+.img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-image: url("./loki.jpg");
+    background-size: cover;
+    position: relative;
+    top: 0.25rem;
+    left: 40%;
+    animation-name: anni;
+    animation-duration: 2s;
+    animation-timing-function:cubic-bezier(1, -1, 1, -1);
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    font-family: 'Tektur', cursive;
+    text-align: center;
+    color:cornsilk;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    letter-spacing: 1px;
+    transition: all 2s ease;
+}
+
+h1:hover{
+    transform: rotate(-3deg);
+    color: aqua;
+}
+
+p{
+    color:beige;
+    font-family: cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.icons{
+    padding-top: 2rem;
+    text-align: center;
+}
+i{
+    color: antiquewhite;
+    font-size: 1.75rem;
+    padding: 0 5px;
+    transition: all 2s ease;
+}
+
+i:hover{
+    color: aqua;
+    transform: rotate(360deg);
+}
+
+@keyframes anni {
+    from{translate: 0 0.5rem;}
+    to{translate: 0 -0.5rem;}
+}
