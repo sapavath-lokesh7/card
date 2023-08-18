@@ -20,7 +20,6 @@ body{
     border-radius: 5%;
     background: linear-gradient(to left, gray, black);
     position: absolute;
-    cursor: pointer;
     box-shadow: rgb(194, 186, 181) 0 10px 10px 0;
     transition: all 2s ease;
 }
